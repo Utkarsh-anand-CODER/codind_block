@@ -17,6 +17,7 @@ async def main():
     #        fetchFromGoogle() for _ in range(20)
     #    ]
     #)
+    # synorhous routine
     for _ in range(20):
         await fetchFromGoogle()
     print (time.strftime('%X'))
